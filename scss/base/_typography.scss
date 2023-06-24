@@ -1,0 +1,33 @@
+body {
+  font-family: "Picsart-Academy-Font", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  color: $text-color-default;
+}
+
+.text {
+  &--primary {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: $text-color-default;
+  }
+  &--secondary {
+    font-size: 1.4rem;
+    line-height: 2rem;
+    color: $text-color-default;
+  }
+
+  &--slogan {
+    font-size: 1.4rem;
+    line-height: 2rem;
+    color: $color-primary;
+    font-weight: 700;
+  }
+
+  &--title {
+    font-size: 4.8rem;
+    line-height: 5.6rem;
+    color: $text-color-secondary;
+    font-weight: 700;
+  }
+}
